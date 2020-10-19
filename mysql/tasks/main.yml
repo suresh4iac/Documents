@@ -1,2 +1,6 @@
 ---
 # tasks file for mysql
+- include: mysqlinstall.yml
+- include: mysqlstart.yml
+- include: msqldatabase.yml
+- include: mysqldbuser.yml
