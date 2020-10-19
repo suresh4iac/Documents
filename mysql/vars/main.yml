@@ -1,2 +1,5 @@
 ---
 # vars file for mysql
+dbname: sureshdb
+dbuser: suresh
+dbuserpassword: suresh123

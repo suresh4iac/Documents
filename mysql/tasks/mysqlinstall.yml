@@ -1,0 +1,11 @@
+- name: install mysql and prerequisites pacakages
+  apt:
+   update_cache: yes
+   name: "{{item}}"
+   state: present
+   loop:
+       - mysql-server
+       - mysql-client
+       - python-mysqldb
+       - libmysqlclient-dev  
+   

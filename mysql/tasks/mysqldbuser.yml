@@ -1,0 +1,6 @@
+    - name: create demo user with all previlages and grant
+      mysql_user:
+       name: '{{dbuser}}'
+       password: '{{dbuserpassword}}'
+       priv: '*.*:ALL,GRANT'
+       state: present
