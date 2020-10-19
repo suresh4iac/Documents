@@ -3,7 +3,7 @@
    update_cache: yes
    name: "{{item}}"
    state: present
-   loop:
+  loop:
        - mysql-server
        - mysql-client
        - python-mysqldb

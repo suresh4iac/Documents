@@ -1,0 +1,5 @@
+- name: calling mysql role
+  hosts: slave1
+  become: yes
+  roles:
+          - mysql
